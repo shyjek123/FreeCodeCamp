@@ -1,3 +1,5 @@
+#Script that takes in as input either the name,symbol,or atomic_number of an element that is on the included list and searches the db and retrieves that info
+
 # !bin/bash
 PSQL="psql -X --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
