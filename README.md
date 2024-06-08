@@ -1,2 +1,2 @@
-This is the final cert project for freecodecamps relational dbs cert. I do not know why but this code does ont pass all the tests there are some issues with the welcoming and closing echo statements. 
-When the program is run it does and words everything as freecodecamp wanted but it still did not pass.
+This is the final cert project for freecodecamps relational dbs cert. I do not know why but this code does not pass all the tests there are some issues with the welcoming and closing echo statements. 
+When the program is run, it does and words everything as freecodecamp wanted but it still did not pass. It does not make much sense but something does not click right with the autograder. Neverthless this code demonstrates my understanding of the relational databases even though it did not match up perfectly wiht the autograder.
