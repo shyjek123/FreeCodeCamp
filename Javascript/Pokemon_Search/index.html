@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokemon Search</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <main>
+      <div class="search-content">
+        <h3>Search for Pokemon by Name or ID:</h3>
+        <input id="search-input" required />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="pokemon-data">
+        <h1 id="pokemon-name"></h1>
+        <h3 id="pokemon-id"></h3>
+        <div id="poke-img"></div>
+        <h3 id="types"></h3>
+        <table class="statTable">
+          <tr>
+            <th>Base</th>
+            <th>Stat</th>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td id="weight"></td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td id="height"></td>
+          </tr>
+          <tr>
+            <td>Health</td>
+            <td id="hp"></td>
+          </tr>
+          <tr>
+            <td>Attack</td>
+            <td id="attack"></td>
+          </tr>
+          <tr>
+            <td>Defense</td>
+            <td id="defense"></td>
+          </tr>
+          <tr>
+            <td>Sp. Attack</td>
+            <td id="special-attack"></td>
+          </tr>
+          <tr>
+            <td>Sp. Defense</td>
+            <td id="special-defense"></td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td id="speed"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

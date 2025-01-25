@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply border-2 p-1 rounded-md focus:outline-none transition duration-300 ease-in-out hover:bg-black;
+}
+
+.container {
+  margin-top: 200px;
+  width: 75em;
+  height: 300px;
+}
+div {
+  @apply border-2 m-2 p-4 text-center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+body {
+  @apply text-blue-100 justify-items-center font-bold font-mono  bg-gray-400;
+}
+
+p {
+  font-size: 20px;
+  @apply bg-black inline rounded-md p-1;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  width: 300px;
+  @apply text-center text-black;
+}
