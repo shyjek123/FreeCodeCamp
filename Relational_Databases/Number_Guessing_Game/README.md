@@ -1,2 +1,1 @@
-This code works, in the exact way freeCodeCamp expected it to, however it did not pass everysingle test. I am not
-sure if it was a formatting issue or if I did not complete it in the exact way fCC was expecting. I am not sure. This is my solution.
+This is the final cert project for freecodecamps relational dbs cert. I do not know why but this code does not pass all the tests there are some issues with the welcoming and closing echo statements. When the program is run, everything works as freecodecamp wanted but it still did not pass. It does not make much sense but something does not click right with the autograder. Neverthless this code demonstrates my understanding of the relational databases even though it did not match up perfectly with the autograder.
