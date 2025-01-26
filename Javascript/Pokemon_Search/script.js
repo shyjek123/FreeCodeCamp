@@ -20,21 +20,22 @@ const updateUI = (data) => {
   const sprite = sprites.front_default;
   const stats = data.stats.map((stat) => stat.base_stat);
   nameTag.innerHTML = `<p>${name.toUpperCase()}</p>`;
-  idTag.innerHTML = `<p>#${id}</p>`;
-  weightTag.innerHTML = `<td>${weight}</td>`;
-  heightTag.innerHTML = `<td>${height}</td>`;
+  idTag.innerHTML = `<p>Pokemon Id: #${id}</p>`;
+  weightTag.textContent = `${weight}`;
+  heightTag.textContent = `${height}`;
   typesTag.innerHTML = types
     .map(
       (type) =>
         `<p class="type ${type.type.name}">${type.type.name.toUpperCase()}</p>`,
     )
     .join(" ");
-  hpTag.innerHTML = `${stats[0]}`;
-  attackTag.innerHTML = `${stats[1]}`;
-  defenseTag.innerHTML = `${stats[2]}`;
-  spAttackTag.innerHTML = `${stats[3]}`;
-  spAttackTag.innerHTML = `${stats[4]}`;
-  speed.innerHTML = `${stats[5]}`;
+  console.log(stats);
+  hpTag.textContent = `${stats[0]}`;
+  attackTag.textContent = `${stats[1]}`;
+  defenseTag.textContent = `${stats[2]}`;
+  spAttackTag.textContent = `${stats[3]}`;
+  spDefenseTag.textContent = `${stats[4]}`;
+  speed.textContent = `${stats[5]}`;
   pokeImg.innerHTML = `<img id="sprite" src=${sprite} />`;
 };
 
